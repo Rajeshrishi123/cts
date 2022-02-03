@@ -69,11 +69,7 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
-</project>
-<plugin>
+	      <plugin>
   <artifactId>maven-jar-plugin</artifactId>
    <version>3.0.2</version>
   <configuration>
@@ -84,3 +80,8 @@
 	</archive>
   </configuration>       
 </plugin>
+
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
